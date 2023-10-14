@@ -1,0 +1,23 @@
+.about{
+    background-image: url("/public/abt-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.about-devs{
+    height: 80vh;
+}
+
+.devs-head{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+    color: #E6F5FF;
+}
+.about-devs-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 200px;
+}

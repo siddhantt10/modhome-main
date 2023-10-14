@@ -1,0 +1,54 @@
+nav {
+  background-color: #000;
+}
+.nav-container {
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(15px);
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  height: 100px;
+}
+.nav-logo {
+  flex: 1;
+}
+.nav-logo {
+  height: 70px;
+  margin: -13px 0 -20px 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+ul a .icon {
+  margin-left: 10px;
+}
+ul .login-btn {
+  color: #834c69;
+}
+ul a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 2px;
+  background-color: #834c69;
+  transition: width 0.3s ease-in-out;
+}
+ul a:hover::after {
+  width: 50%;
+}
